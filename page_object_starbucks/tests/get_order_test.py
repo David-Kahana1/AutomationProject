@@ -1,7 +1,7 @@
-from jb_60.page_object_starbucks.pages.cart_page import cartPage
-from jb_60.page_object_starbucks.pages.find_a_store_page import findAStorePage
-from jb_60.page_object_starbucks.pages.home_page import homePage
-from jb_60.page_object_starbucks.pages.menu_page import menuPage
+from page_object_starbucks.pages.cart_page import cartPage
+from page_object_starbucks.pages.find_a_store_page import findAStorePage
+from page_object_starbucks.pages.home_page import homePage
+from page_object_starbucks.pages.menu_page import menuPage
 
 
 class TestGetOrder():

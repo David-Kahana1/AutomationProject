@@ -1,5 +1,5 @@
-from jb_60.page_object_starbucks.pages.find_a_store_page import findAStorePage
-from jb_60.page_object_starbucks.pages.home_page import homePage
+from page_object_starbucks.pages.find_a_store_page import findAStorePage
+from page_object_starbucks.pages.home_page import homePage
 
 
 class TestFindStore():
