@@ -1,4 +1,3 @@
-import time
 
 
 class findAStorePage():
@@ -25,10 +24,10 @@ class findAStorePage():
         return no_result_text
 
 
-    def order_here_button(self):
-        print("Start Order Button")
-        order_button = self.page.get_by_role("button", name="Order Here")
-        order_button.click() #This button not work in automation test
+    def press_on_order_here_button(self):
+        print("Start Order Here Button")
+        order_here_button = self.page.get_by_role("button", name="Order Here")
+        order_here_button.click() # This button not work in automation test
 
 
     def get_store_opening_times(self):

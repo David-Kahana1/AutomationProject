@@ -42,5 +42,5 @@ class TestFindStore():
         page = setup_starbucks
         home_page = homePage(page)
         home_page.go_to_menu_page()
-        assert page.url =="https://www.starbucks.com/menu" , "it's not the URL of the manu"
+        assert page.url =="https://www.starbucks.com/menu" , "it's not the URL of the menu"
 

@@ -14,8 +14,8 @@ class homePage():
 
 
     def go_to_menu_page(self):
-        print("Go To Manu Page")
-        manu_button= self.page.get_by_role("link", name="Menu")
-        manu_button.click()
+        print("Go To Menu Page")
+        menu_button = self.page.get_by_role("link", name="Menu")
+        menu_button.click()
 
 

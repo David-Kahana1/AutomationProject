@@ -17,8 +17,8 @@ class TestGetOrder():
         home_page.go_to_menu_page()
         menu_page.take_order_e2e()
         find_page.search_location("New York, NY, USA")
-        find_page.order_here_button()
-        # In automation test have a failer (bug) here. can't press on 'order here'.
+        find_page.press_on_order_here_button()
+        # In automation test have a failure (bug) here. can't press on 'Order Here'.
         cart_page.get_sum_price_of_order()
         assert page.url == "https://www.starbucks.com/menu/cart","The order failed"
 
